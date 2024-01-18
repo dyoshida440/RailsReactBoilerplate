@@ -4,10 +4,12 @@
 - https://qiita.com/Yusuke_Hoirta/items/3a50d066af3bafbb8641
 - https://zenn.dev/925rycki/articles/655462e9c76906
 
-docker-compose build<br>
-docker-compose up -d<br>
+### 実行
+1. docker-compose build<br>
+2. docker-compose up -d<br>
 （まとめて実行 docker compose up -d --build）<br>
-docker compose exec api rails db:create
+3. docker compose exec api rails db:create
+
 ### backend
 1. localhost:3001にアクセス
 
