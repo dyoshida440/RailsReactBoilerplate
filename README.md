@@ -12,6 +12,15 @@
 
 ### backend
 1. localhost:3001にアクセス
+2. gem追加
+3. docker-compose exec api bundle install
+4. docker attach コンテナid
+
+```
+gem 'pry-rails'
+gem 'pry-byebug'
+gem 'rack-cors'
+```
 
 #### frontend
 1. docker compose exec front bash(コンテナ内に入る)
