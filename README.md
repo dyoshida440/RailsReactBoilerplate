@@ -16,5 +16,7 @@
 #### frontend
 1. docker compose exec front bash(コンテナ内に入る)
 2. npx create-react-app . --template typescript
-3. npm start
-4. localhost:3000にアクセス
+3. npm install react-router-dom@6
+4. npm install axios --save
+5. npm start
+6. localhost:3000にアクセス
